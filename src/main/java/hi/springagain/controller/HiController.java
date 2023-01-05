@@ -21,6 +21,7 @@ public class HiController {
         model.addAttribute("name", name);
         model.addAttribute("age", age);
         model.addAttribute("money", money);
+
         return "hi-template";
     }
 }
